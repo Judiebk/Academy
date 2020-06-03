@@ -1,37 +1,108 @@
-<!DOCTYPE>
+<!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
     <title>Instructors</title>
+    <style media="screen">
+      <!DOCTYPE html>
+      <html lang="en" dir="ltr">
+        <head>
+          <meta charset="utf-8">
+          <title>Archery Academy</title>
+          <style>
+            .grid-container div{
+              border:1px solid black;
+              padding:20px;
+            }
+            .grid-container{
+              display:grid;
+              grid-template-columns: auto auto;
+              grid-row-gap: 50px;
+            }
+            .grid-item-1{
+              grid-column-start: 1;
+              grid-column-end: 1;
+              grid-row-start: 1;
+              grid-row-end: 2;
+              background-color: rgb(27,68,127);
+            }
+            .grid-item-2{
+              grid-column: 2/ 2;
+              grid-row: 1/2;
+              text-align:right;
+              background-color: rgb(27,68,127);
+            }
+            .grid-item-3{
+              grid-column: 1/span 1;
+              grid-row:4/4;
+              border-style: solid;
+              padding: 20px;
+            }
+            .grid-item-4{
+            border-style: solid;
+            padding: 20px;
+          }
+          .grid-item-5{
+            grid-column: 1;
+            border-style: solid;
+            padding: 20px;
+
+          }
+            .grid-item-6{
+              grid-column:1/span 2;
+              grid-row:11/12;
+              background-image: url(https://github.com/UWFront-End-Cert/html100/blob/master/lesson07-styleguide/styleguide%20design%20elements/footerImage.jpg?raw=true);
+            }
+            a{
+              color:rgb(236,183,34);
+            }
+            h3{
+              color:rgb(3,163,223);
+              font-family: "arial bold";
+            }
+            .name{
+              color:rgb(3,163,223);
+            }
+            body{
+              font-family:"arial bold";
+            }
+    </style>
   </head>
-  <header>
+  <div class"grid-container">
+
+  <div class="grid-item-1">
       <img src="https://github.com/UWFront-End-Cert/html100/blob/master/lesson07-styleguide/styleguide%20design%20elements/archeryAcademy-logo-color.png?raw=true" alt="archeryAcademy">
-      <nav>
+      </div>
+  <div class="grid-item-2">
+    <nav>
       <a href="index.html">Home</a>
       <a href="services.html">Services</a>
       <a href="instructors.html">Instructors</a>
     </nav>
-  </header>
+    </div>
+
+  </div>
   <body>
     <h3>Instructors</h3>
-  <section>
-    <p>Derek Jenkins: Derek is a Washington native and an experienced outdoorsman with many years hunting, fishing, skiing, canoeing, archery, shooting and minimalistic camping.
+  <div class="grid-item-3">
+    <p><span class="name">Derek Jenkins:</span> Derek is a Washington native and an experienced outdoorsman with many years hunting, fishing, skiing, canoeing, archery, shooting and minimalistic camping.
       His skillful mastery of bushcraft and wilderness survival knowledge helps define his character. He enjoys handcrafting his own long bows, flint knapped primitive arrows and making custom leather products.</p>
-  </section>
-  <section>
-    <p>Nathan Lee: Nathan is an USA Archery Certified Level 3 NTS – Coach and has been teaching archery since 2009. He has been interested in archery since he nocked his first arrow while a Boy Scout at Scout camp.
+  </div><br>
+  <div class="grid-item-4">
+    <p><span class="name">Nathan Lee:</span> Nathan is an USA Archery Certified Level 3 NTS – Coach and has been teaching archery since 2009. He has been interested in archery since he nocked his first arrow while a Boy Scout at Scout camp.
          Nathan has many years of experience teaching people of all ages, experience gained as a Martial Arts Instructor and Studio Manager.</p>
-  </section>
-  <section>
-    <p>Amy Smith: Amy truly has a passion for archery. She comes from a long line of hunters, fisherman, and trappers of Canada. Amy  places a strong emphasis on safety and is enthusiastic about teaching.
+  </div><br>
+  <div class="grid-item-5">
+    <p><span class="name">Amy Smith:</span> Amy truly has a passion for archery. She comes from a long line of hunters, fisherman, and trappers of Canada. Amy  places a strong emphasis on safety and is enthusiastic about teaching.
        Amy also loves fitness, and  has been a YMCA group exercise and personal trainer for over 18 years.</p>
-  </section>
-  <footer>Contact Information:
+  </div><br>
+  <div class="grid-item-6">
+  Contact Information:
     <p>Archery Academy<br>
     528 Nock Point Ln<br>
     Tacoma, WA 98412<br>
     (253)555-1010<br>
     archery-education@example.com</p>
-  </footer>
+  </div>
   </body>
 </html>
