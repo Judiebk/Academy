@@ -3,69 +3,10 @@
   <head>
     <meta charset="utf-8">
     <title>Archery Academy</title>
-    <style>
-      .grid-container div{
-        border:1px;
-        padding:20px;
-      }
-      .grid-container{
-        display:grid;
-      }
-      .grid-item-1{
-        grid-column-start: 1;
-        grid-column-end: 1;
-        grid-row-start: 1;
-        grid-row-end: 2;
-        background-color: rgb(27,68,127);
-      }
-      .grid-item-2{
-        grid-column: 2/ 2;
-        grid-row: 1/2;
-        text-align:right;
-        background-color: rgb(27,68,127);
-      }
-      .grid-item-3{
-        grid-column: 1/ 1;
-        grid-row: 3/ 7;
-        margin-left: 40px;
-        margin-right: 100px;
-      }
-      .grid-item-4{
-        grid-column-start: 2;
-        grid-column-end:2;
-        grid-row-start:3;
-        grid-row-end:7;
-        margin-right: 40px;
-      }
-      .grid-item-5{
-        grid-column-start: 1;
-        grid-column-end:3;
-        grid-row-start:8;
-        grid-row-end:10;
-        margin-left:60px;
-        margin-right: 60px;
-      }
-      .grid-item-6{
-        grid-column:1/span 2;
-        grid-row:11/12;
-        background-image: url(https://github.com/UWFront-End-Cert/html100/blob/master/lesson07-styleguide/styleguide%20design%20elements/footerImage.jpg?raw=true);
-      }
-      .color{
-        color: rgb(27,68,127);
-      }
-      h2{
-        color:rgb(236,183,34);
-        font-weight: bold;
-      }
-      a{
-        color:rgb(236,183,34);
-      }
-      body{
-        font-family:"arial bold";
-      }
-    </style>
+    <link rel="stylesheet" type="text/css" href="stylesheet.css"/>
+    <<a href="#content" class="skip">Skip to content</a>
   </head>
-  <body>
+  <body id="home">
     <div class="grid-container">
     <div class="grid-item-1">
         <img src="https://github.com/UWFront-End-Cert/html100/blob/master/lesson07-styleguide/styleguide%20design%20elements/archeryAcademy-logo-color.png?raw=true" alt="archeryAcademy">
@@ -77,9 +18,10 @@
       <a href="instructors.html">Instructors</a>
       </nav>
       </div>
-    <div class="grid-item-3">
+    <div id="content"class="grid-item-3">
+      <div id="content">
       From Beginner to Elite, archers of all ages and ability learn about this exciting Olympic and international sport.
-      Sign up for a group lesson, private class, schedule a birthday or corporate party or compete at one of our many tournaments.
+      Sign up for a group lesson, private class, schedule a birthday or corporate party or compete at one of our many tournaments.</div>
       <h2>Please contact us with any questions</h2>
         <p><span class= "color">(253)555-1010</span><br>
         archery-education@example.com</p>

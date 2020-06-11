@@ -3,76 +3,9 @@
   <head>
     <meta charset="utf-8">
     <title>Services</title>
-    <style>
-      .grid-container div{
-        border:1px;
-        padding:20px;
-      }
-      .grid-container{
-        display:grid;
-        grid-template-columns: auto auto auto;
-      }
-      .grid-item-1{
-        grid-column-start: 1;
-        grid-column-end: 1;
-        grid-row-start: 1;
-        grid-row-end: 2;
-        background-color:rgb(27,68,127);
-      }
-      .grid-item-2{
-        grid-column: 2/span 2;
-        grid-row: 1/2;
-        text-align:right;
-        background-color: rgb(27,68,127);
-      }
-      .grid-item-3{
-        grid-column:1 /span 3;
-        grid-row:2 / 2;
-      }
-      .grid-item-4{
-        grid-column:1/1;
-        grid-row: 3/4;
-        padding:10px;
-      }
-      .grid-item-5{
-        grid-column:2/2;
-        grid-row: 3/4;
-      }
-      .grid-item-6{
-        grid-column:3/span 1;
-        grid-row:3/4;
-      }
-      .grid-item-7{
-        grid-column:1 /  span 3;
-        grid-row: 4/ 5;
-      }
-      .grid-item-8{
-        grid-column:1/ 1;
-        grid-row:5/5;
-      }
-      .grid-item-9{
-       grid-column: 2/ 2;
-      grid-row: 5/5;
-      }
-      .grid-item-10{
-      grid-column:3/3;
-      grid-row: 5/5;
-      }
-      footer{
-        background-image: url(https://github.com/UWFront-End-Cert/html100/blob/master/lesson07-styleguide/styleguide%20design%20elements/footerImage.jpg?raw=true);
-      }
-      h3{
-        color:rgb(236,183,34);
-      }
-      a{
-        color:rgb(236,183,34);
-      }
-      body{
-        font-family:"arial bold";
-      }
-</style>
+    <link rel="stylesheet" type="text/css" href="stylesheet.css"/>
   </head>
-  <body>
+  <body id="services">
   <div class="grid-container">
     <div class="grid-item-1">
         <img src="https://github.com/UWFront-End-Cert/html100/blob/master/lesson07-styleguide/styleguide%20design%20elements/archeryAcademy-logo-color.png?raw=true" alt="archeryAcademy">
@@ -94,7 +27,7 @@
   	     <p>Cost: $120/month</p>
   	     <p>	Schedule: Mondays and Wednesdays, 4-5pm </p>
   	     <p>	Prerequisite:   Interest in learning about the sport of archery. Minimum age  8 years old or 7 w/ pre-evaluation.</p>
-         <p>Sign up here>></p>
+         <p class="sign">Sign up here>></p>
     </div>
     <div class="grid-item-5">
   	   <h3> A102 Intermediate Archery</h3>
@@ -103,7 +36,7 @@
   	     <p>	Cost: $120/month</p>
   	     <p>	Schedule: Tuesdays and Thursdays, 4-5pm</p>
   	     <p>	Prerequisite:A101 or recommendation from private lesson instructor. Minimum age  7 years old.</p>
-         <p> Sign up here>> </p>
+         <p class="sign">Sign up here>> </p>
     </div>
     <div class="grid-item-6">
   	   <h3> A103 Advanced Archery</h3>
@@ -112,7 +45,7 @@
   	     <p>	Cost: $120/month</p>
   	     <p>	Schedule: Tuesdays and Thursdays, 5-6pm</p>
   	     <p>	Prerequisite:  A101/A102 or equivalent. Minimum age  7 years old.</p>
-         <p>Sign up here>></p>
+         <p class="sign">Sign up here>></p>
     </div>
     <div class="gird-item-7">
       <h2>Private Lessons</h2>
@@ -121,19 +54,19 @@
         <h3>Single Lesson</h3>
 		      <p>Description: 1 hour of expert guidance by a USA Archery-certified coach
 		        Price: $50</p>
-          <p>Purchase your lesson here>></p>
+          <p class="sign">Purchase your lesson here>></p>
       </div>
       <div class="grid-item-9">
         <h3> 3 Lesson Package</h3>
           <p>Description: 3 lessons, 1 hour each of expert guidance by a USA Archery-certified coach
 		        Price: $140</p>
-          <p>Purchase your Package here>></p>
+          <p class="sign">Purchase your Package here>></p>
       </div>
       <div class="grid-item-10">
         <h3>10 Lesson Package</h3>
           <p>Description: 10 lessons, 1 hour each of expert guidance by a USA Archery-certified coach
 		        Price: $380</p>
-          <p>Purchase your Package here>></p>
+          <p class="sign">Purchase your Package here>></p>
       </div>
       </div>
     </body>

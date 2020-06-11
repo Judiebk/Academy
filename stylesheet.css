@@ -1,0 +1,210 @@
+#home .grid-container div{
+  border:1px;
+  padding:20px;
+}
+#home .grid-container{
+  display:grid;
+}
+#home .grid-item-1{
+  grid-column-start: 1;
+  grid-column-end: 1;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  background-color: rgb(27,68,127);
+}
+#home .grid-item-2{
+  grid-column: 2/ 2;
+  grid-row: 1/2;
+  text-align:right;
+  background-color: rgb(27,68,127);
+}
+#home .grid-item-3{
+  grid-column: 1/ 1;
+  grid-row: 3/ 7;
+  margin-left: 40px;
+  margin-right: 100px;
+}
+#home .grid-item-4{
+  grid-column-start: 2;
+  grid-column-end:2;
+  grid-row-start:3;
+  grid-row-end:7;
+  margin-right: 40px;
+}
+#home .grid-item-5{
+  grid-column-start: 1;
+  grid-column-end:3;
+  grid-row-start:8;
+  grid-row-end:10;
+  margin-left:60px;
+  margin-right: 60px;
+}
+#home .grid-item-6{
+  grid-column:1/span 2;
+  grid-row:11/12;
+  background-image: url(https://github.com/UWFront-End-Cert/html100/blob/master/lesson07-styleguide/styleguide%20design%20elements/footerImage.jpg?raw=true);
+}
+#home .color{
+  color: rgb(27,68,127);
+}
+#home h2{
+  color:rgb(236,183,34);
+  font-weight: bold;
+}
+#home a{
+  color:rgb(236,183,34);
+  padding: 20px;
+}
+#home body{
+  font-family:"arial bold";
+}
+#home .skip {
+        position: absolute;
+        top: -1000px;
+        left: -1000px;
+        height: 1px;
+        width: 1px;
+        text-align: left;
+        overflow: hidden;
+    }
+  #home a.skip:active,
+  #home a.skip:focus,
+  #home a.skip:hover {
+        left: 0;
+        top: 0;
+        width: auto;
+        height: auto;
+        overflow: visible;
+    }
+#instructors .grid-container div{
+  padding:20px;
+}
+#instructors .grid-container {
+  display:grid;
+  grid-template-columns: auto auto;
+  grid-row-gap: 50px;
+}
+#instructors .grid-item-1 {
+  grid-column-start: 1;
+  grid-column-end: 1;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  background-color: rgb(27,68,127);
+}
+#instructors .grid-item-2{
+  grid-column: 2/ 2;
+  grid-row: 1/2;
+  text-align:right;
+  background-color: rgb(27,68,127);
+}
+#instructors .grid-item-3{
+  grid-column: 1/span 1;
+  grid-row:4/4;
+  border-style: solid;
+  padding: 20px;
+}
+#instructors .grid-item-4{
+border-style: solid;
+padding: 20px;
+}
+#instructors .grid-item-5{
+grid-column: 1;
+border-style: solid;
+padding: 20px;
+}
+#instructors .grid-item-6{
+  grid-column:1/span 2;
+  grid-row:11/12;
+  background-image: url(https://github.com/UWFront-End-Cert/html100/blob/master/lesson07-styleguide/styleguide%20design%20elements/footerImage.jpg?raw=true);
+}
+#instructors a{
+  color:rgb(236,183,34);
+  padding:20px;
+}
+#instructors h3{
+  color:rgb(3,163,223);
+  font-family: "arial bold";
+}
+#instructors .name{
+  color:rgb(3,163,223);
+}
+body{
+  font-family:"arial bold";
+}
+
+#services.grid-container div{
+  border:1px;
+  padding:20px;
+}
+#services .grid-container{
+  display:grid;
+  grid-template-columns: auto auto auto;
+}
+#services .grid-item-1 {
+  grid-column-start: 1;
+  grid-column-end: 1;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  background-color:rgb(27,68,127);
+}
+#services .grid-item-2{
+  grid-column: 2/span 2;
+  grid-row: 1/2;
+  text-align:right;
+  background-color: rgb(27,68,127);
+}
+#services .grid-item-3{
+  grid-column:1 /span 3;
+  grid-row:2 / 2;
+}
+#services .grid-item-4{
+  grid-column:1/1;
+  grid-row: 3/4;
+  padding:10px;
+}
+#services .grid-item-5 {
+  grid-column:2/2;
+  grid-row: 3/4;
+}
+#services .grid-item-6 {
+  grid-column:3/span 1;
+  grid-row:3/4;
+}
+#services .grid-item-7 {
+  grid-column:1 /  span 3;
+  grid-row: 4/ 5;
+}
+#services .grid-item-8{
+  grid-column:1/ 1;
+  grid-row:5/5;
+}
+#services .grid-item-9{
+grid-column: 2/ 2;
+grid-row: 5/5;
+}
+#services .grid-item-10 {
+grid-column:3/3;
+grid-row: 5/5;
+}
+#services footer{
+  background-image: url(https://github.com/UWFront-End-Cert/html100/blob/master/lesson07-styleguide/styleguide%20design%20elements/footerImage.jpg?raw=true);
+}
+#services h3 {
+  color:rgb(236,183,34);
+}
+#services a {
+  color:rgb(236,183,34);
+  padding: 20px;
+}
+body #services {
+  font-family:"arial bold";
+}
+#services .sign{
+  color:rgb(3,163,223);
+}
+#services .sign:hover {
+  background-color: yellow;
+}
+nav a services{
+padding:12px;
+}
